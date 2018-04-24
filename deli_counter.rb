@@ -7,6 +7,7 @@ def line(katz_deli)
   puts "The line is currently:  #{array[0]}"
 else
   puts "The line is currently empty."
+end
 
 end
 
