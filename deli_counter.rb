@@ -18,8 +18,9 @@ end
 
 
 def take_a_number(katz_deli, name)
-  katz_deli << "#{name}"
-    puts "Welcome, #{name}. You are number #{katz_deli[name] + 1} in line."
+  katz_deli.each_with_index do |name, place|
+    katz_deli << "#{name}"
+    puts "Welcome, #{name}. You are number #{place + 1} in line."
 end
 
 
